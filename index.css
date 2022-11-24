@@ -1,0 +1,153 @@
+* {
+    text-align: center;
+    padding: 0;
+}
+
+header {
+    background-color: aliceblue !important;
+    width: 100%;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+    width: 32%;
+    border: 1px solid transparent;
+}
+
+.li1:hover {
+    background-color: #85bcdb;
+    border: 1px solid #85bcdb;
+    border-radius: 5px;
+}
+
+.container {
+    border: 2px solid grey;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.color {
+    display: inline-block;
+    width: 32%;
+    min-height: 100px;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.dark-blue {
+    background-color: #053c5e;
+    border: 2px solid #053c5e;
+}
+
+.blue {
+    background-color: #85bcdb;
+    border: 2px solid #85bcdb;
+}
+
+.grey {
+    background-color: #7a918d;
+    border: 2px solid #7a918d;
+}
+
+.font {
+    display: block;
+    width: 100%;
+    min-height: 200px;
+    margin: 0 auto;
+}
+
+.font-name {
+    font-size: x-large;
+}
+
+.arial {
+    font-family: Arial, sans-serif;
+}
+
+.time {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.font-example-i {
+    font-style: italic;
+}
+
+.font-example-b {
+    font-weight: bold;
+}
+
+.b1 {
+    background-color: #053c5e;
+    border: 1px solid #053c5e;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    opacity: 75%;
+}
+
+.b1:hover {
+    background-color: #053c5e;
+    opacity: 100%;
+}
+
+.b2 {
+    background-color: #053c5e;
+    border: 1px solid #053c5e;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+.b2:hover {
+    background-color: #85bcdb;
+    color: #053c5e;
+    border: 1px solid #053c5e;
+    text-align: center;
+    text-decoration: none;
+}
+
+.b3 {
+    background-color: #7A918D;
+    border: 3px solid #7A918D;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.b3:hover {
+    background-color: aliceblue;
+    color: #053c5e;
+    border: 3px solid #7A918D;
+    text-align: center;
+}
+
+footer {
+    background-color: aliceblue;
+    width: 100%;
+    bottom: 0;
+}
